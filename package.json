@@ -1,0 +1,14 @@
+{
+  "name": "node_mctest",
+  "version": "1.0.0",
+  "description": "testing all the node things",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
