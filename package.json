@@ -1,9 +1,10 @@
 {
-  "name": "node_mctest",
+  "name": "lolbirds",
   "version": "1.0.0",
   "description": "testing all the node things",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "test"
   },
   "author": "",
@@ -11,7 +12,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-enforces-ssl": "^1.1.0",
+    "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
+    "handlebars-helpers": "^0.10.0",
     "helmet": "^3.21.2",
     "wildcard-subdomains": "^1.1.0"
   }
