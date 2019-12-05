@@ -43,7 +43,8 @@ app.get('/', function(req,res){
 })
 
 app.get('/s/:subdomain', function(req,res){
-  res.render('index')
+  console.log('PARAMS', req.params)
+  res.render('wildbird', { birdInput: req.params.subdomain })
 })
 
 app.listen(app.get('port'), function() {
